@@ -1,0 +1,33 @@
+<activities>
+    <producer in-process="true">
+        <instrumentation>
+            <class-name>io.grpc.internal.ServerImpl</class-name>
+            <method-name>createContext</method-name>
+            <match-type>MATCHES_CLASS</match-type>
+        </instrumentation>
+        <correlation>
+            <payload-pointer>
+                <data-gatherer-type>RETURN</data-gatherer-type>
+                <getter-chain>this</getter-chain>
+                <transformer-type>GETTER_METHODS</transformer-type>
+            </payload-pointer>
+        </correlation>
+    </producer>
+
+    <consumer in-process="true" identify-transaction="true">
+        <instrumentation>
+            <class-name>io.grpc.internal.ContextRunnable</class-name>
+            <method-name>run</method-name>
+            <match-type>IMPLEMENTS_INTERFACE</match-type>
+        </instrumentation>
+        <correlation>
+			<payload-pointer>
+				<data-gatherer-type>INVOKED</data-gatherer-type>
+				<field-name>context</field-name>
+				<getter-chain>this</getter-chain>
+				<transformer-type>GETTER_METHODS</transformer-type>
+			</payload-pointer>
+        </correlation>
+    </consumer>
+
+</activities>

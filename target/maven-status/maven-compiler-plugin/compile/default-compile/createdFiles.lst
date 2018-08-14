@@ -1,0 +1,3 @@
+com\appdynamics\GrpcProducerInstrumentation.class
+com\appdynamics\GrpcConsumerInstrumentation.class
+com\appdynamics\MetadataKeyUtility.class
