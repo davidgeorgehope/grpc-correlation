@@ -94,7 +94,7 @@ public class GrpcProducerInstrumentation extends AExit {
 
     @Override
     public boolean resolveToNode() {
-        return false;
+        return true;
     }
 
     @Override
