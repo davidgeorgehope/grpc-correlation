@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53da1ec0-58ac-48a0-8ae2-ca45228dbaa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_appdynamics_appdynamics_boot_4_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcConsumerInstrumentationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcMetadataKeyUtilityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcProducerInstrumentationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/appdynamics/GrpcConsumerInstrumentation.class" afterPath="$PROJECT_DIR$/target/classes/com/appdynamics/GrpcConsumerInstrumentation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/appdynamics/GrpcProducerInstrumentation.class" afterPath="$PROJECT_DIR$/target/classes/com/appdynamics/GrpcProducerInstrumentation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/appdynamics/MetadataKeyUtility.class" afterPath="$PROJECT_DIR$/target/classes/com/appdynamics/MetadataKeyUtility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/grpc-correlation-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/grpc-correlation-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grpc-correlation.iml" afterPath="$PROJECT_DIR$/grpc-correlation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcConsumerInstrumentation.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcConsumerInstrumentation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcProducerInstrumentation.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcProducerInstrumentation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/appdynamics/MetadataKeyUtility.java" afterPath="$PROJECT_DIR$/src/main/java/com/appdynamics/MetadataKeyUtility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +21,8 @@
       <file leaf-file-name="GrpcConsumerInstrumentation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcConsumerInstrumentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="-133">
+              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#788#789#0" expanded="true" />
@@ -44,8 +35,8 @@
       <file leaf-file-name="MetadataKeyUtility.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/MetadataKeyUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="500">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +47,8 @@
       <file leaf-file-name="GrpcProducerInstrumentation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcProducerInstrumentation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-874">
-              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="275">
+              <caret line="54" column="99" lean-forward="true" selection-start-line="54" selection-start-column="99" selection-end-line="54" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#752#753#0" expanded="true" />
@@ -81,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcMetadataKeyUtilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="62" />
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,8 +83,8 @@
       <file leaf-file-name="GrpcConsumerInstrumentationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcConsumerInstrumentationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="55" />
               <folding>
                 <element signature="e#1152#1160#0" expanded="true" />
               </folding>
@@ -134,8 +125,8 @@
       <file leaf-file-name="GrpcProducerInstrumentationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcProducerInstrumentationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="e#931#939#0" expanded="true" />
               </folding>
@@ -173,9 +164,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcConsumerInstrumentationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcProducerInstrumentationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcConsumerInstrumentation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcProducerInstrumentation.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcMetadataKeyUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcProducerInstrumentation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/appdynamics/MetadataKeyUtility.java" />
       </list>
     </option>
@@ -558,15 +549,36 @@
       <option name="project" value="LOCAL" />
       <updated>1534279828042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding tests and refactoring.">
+      <created>1536072987663</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536072987663</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding tests and refactoring.">
+      <created>1536074379470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536074379470</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding tests and refactoring.">
+      <created>1536076084273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536076084273</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="GrpcConsumerInstrumentationTest_shouldReadSingularityHeaderFromMetadata - 2018.09.04 at 10h 54m 03s.xml">
       <configuration name="GrpcConsumerInstrumentationTest.shouldReadSingularityHeaderFromMetadata" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrpcConsumerInstrumentationTest_unmarshalTransactionContextTest - 2018.09.04 at 10h 29m 08s.xml">
-      <configuration name="GrpcConsumerInstrumentationTest.unmarshalTransactionContextTest" configurationId="JUnit" />
+    <history-entry file="GrpcConsumerInstrumentationTest_shouldReadSingularityHeaderFromMetadata - 2018.09.04 at 11h 47m 42s.xml">
+      <configuration name="GrpcConsumerInstrumentationTest.shouldReadSingularityHeaderFromMetadata" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GrpcMetadataKeyUtilityTest_createAgRPCMetaDataKeyForInsertionAndRetrieval - 2018.09.04 at 10h 32m 56s.xml">
       <configuration name="GrpcMetadataKeyUtilityTest.createAgRPCMetaDataKeyForInsertionAndRetrieval" configurationId="JUnit" />
@@ -577,19 +589,19 @@
     <history-entry file="GrpcMetadataKeyUtilityTest_createAgRPCMetaDataKeyForInsertionAndRetrieval - 2018.09.04 at 10h 54m 08s.xml">
       <configuration name="GrpcMetadataKeyUtilityTest.createAgRPCMetaDataKeyForInsertionAndRetrieval" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GrpcProducerInstrumentationTest - 2018.09.04 at 10h 32m 49s.xml">
-      <configuration name="GrpcProducerInstrumentationTest" configurationId="JUnit" />
+    <history-entry file="GrpcMetadataKeyUtilityTest_createAgRPCMetaDataKeyForInsertionAndRetrieval - 2018.09.04 at 11h 47m 47s.xml">
+      <configuration name="GrpcMetadataKeyUtilityTest.createAgRPCMetaDataKeyForInsertionAndRetrieval" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GrpcProducerInstrumentationTest - 2018.09.04 at 10h 47m 48s.xml">
       <configuration name="GrpcProducerInstrumentationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GrpcProducerInstrumentationTest_marshalTransactionContextTest - 2018.09.04 at 10h 29m 15s.xml">
-      <configuration name="GrpcProducerInstrumentationTest.marshalTransactionContextTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GrpcProducerInstrumentationTest_shouldAddSingularityHeaderToMetadata - 2018.09.04 at 10h 33m 01s.xml">
       <configuration name="GrpcProducerInstrumentationTest.shouldAddSingularityHeaderToMetadata" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GrpcProducerInstrumentationTest_shouldAddSingularityHeaderToMetadata - 2018.09.04 at 10h 54m 13s.xml">
+      <configuration name="GrpcProducerInstrumentationTest.shouldAddSingularityHeaderToMetadata" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GrpcProducerInstrumentationTest_shouldAddSingularityHeaderToMetadata - 2018.09.04 at 11h 47m 51s.xml">
       <configuration name="GrpcProducerInstrumentationTest.shouldAddSingularityHeaderToMetadata" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -629,7 +641,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Resolving node." />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolving node." />
+    <MESSAGE value="Adding tests and refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding tests and refactoring." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,40 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcMetadataKeyUtilityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcConsumerInstrumentationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#1152#1160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcProducerInstrumentationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#931#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcConsumerInstrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="-133">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#788#789#0" expanded="true" />
@@ -983,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/GrpcProducerInstrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="275">
+          <caret line="54" column="99" lean-forward="true" selection-start-line="54" selection-start-column="99" selection-end-line="54" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#752#753#0" expanded="true" />
@@ -993,10 +976,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcConsumerInstrumentationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="e#1152#1160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcMetadataKeyUtilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/appdynamics/GrpcProducerInstrumentationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#931#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appdynamics/MetadataKeyUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="500">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
