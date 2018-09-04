@@ -21,13 +21,19 @@ public class GrpcProducerInstrumentationTest {
     public void shouldAddSingularityHeaderToMetadata() throws Exception{
         System.setProperty("javaagent.reflector.factory.impl", "com.singularity.ee.agent.appagent.kernel.reflection.reflector.c");
 
+        //GIVEN: A NEW/EMPTY METADATA OBJECT
+
         ArrayList<Object> paramValues = new ArrayList<Object>();
         io.grpc.Metadata metaData = new io.grpc.Metadata();
         paramValues.add("");
         paramValues.add(metaData);
 
+        //WHEN: THE NEW/EMPTY METADATA OBJECT AND HEADER "TEST" IS PASSED INTO THE MARSHAL TRANSACTION CONTEXT METHOD
+
         GrpcProducerInstrumentation grpcProducerInstrumentation = new GrpcProducerInstrumentation();
         grpcProducerInstrumentation.marshalTransactionContext(EXPECTED_RESULT,null,null,null,paramValues.toArray(),null,null,null);
+
+        //THEN: THE METADATA OBJECT CONTAINS THE HEADER
 
         io.grpc.Metadata.Key<String> CUSTOM_HEADER_KEY =
                 io.grpc.Metadata.Key.of(singularityHeader, io.grpc.Metadata.ASCII_STRING_MARSHALLER);
