@@ -6,7 +6,6 @@ import com.appdynamics.instrumentation.sdk.toolbox.reflection.IReflectionBuilder
 import com.appdynamics.instrumentation.sdk.toolbox.reflection.IReflector;
 
 import java.lang.reflect.Method;
-import java.util.logging.Logger;
 
 public class MetadataKeyUtility {
 

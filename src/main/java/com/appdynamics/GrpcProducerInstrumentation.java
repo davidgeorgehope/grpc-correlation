@@ -66,7 +66,6 @@ public class GrpcProducerInstrumentation extends AExit {
     public Map<String, String> identifyBackend(Object invokedObject, String className, String methodName, Object[] paramValues, Throwable thrownException, Object returnValue, ISDKUserContext context)  throws ReflectorException{
 
         Map<String, String> map = new HashMap<String, String>();
-        Object o = paramValues[0];
         String topicStr = "gRPCTest";
         map.put("gRPC", topicStr);
         return map;
