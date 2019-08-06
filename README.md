@@ -6,10 +6,9 @@ Enables AppDynamics correlation between gRPC servers and clients
 ## Installation
 
 1. Copy https://github.com/appdynamicsdh/grpc-correlation/blob/master/target/grpc-correlation-1.0-SNAPSHOT.jar to /opt/appdynamics/javaagent/verx.x.x.x/sdk-plugins
-2. Add -Dallow.unsigned.sdk.extension.jars=true to the java agent command line.
-3. Copy the src/custom-activity-correlation.xml file to /opt/appdynamics/javaagent/verx.x.x.x/conf
-4. Restart the Java Agent process.
-5. Watch as you see the correlation in the AppDynamics controller (Can take up to 5 minutes).
+2. Copy the src/custom-activity-correlation.xml file to /opt/appdynamics/javaagent/verx.x.x.x/conf
+3. Restart the Java Agent process.
+4. Watch as you see the correlation in the AppDynamics controller (Can take up to 5 minutes).
 
 
 ## To add this to a running Docker container
